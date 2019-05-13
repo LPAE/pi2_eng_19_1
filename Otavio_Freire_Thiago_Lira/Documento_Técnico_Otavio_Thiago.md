@@ -72,7 +72,7 @@ Desta forma, e analisando a evolução para indústria 4.0 podemos observar que 
 
 ​	2.3 Equação  do projeto
 
-![1557763283717](C:\Users\Thiago Lira\AppData\Roaming\Typora\typora-user-images\1557763283717.png)
+![1557763283717](Img/1557763283717.png)
 
 ​								*Figura 1: Cálculo da altura por etapas* 
 
@@ -85,14 +85,18 @@ Foi divido a altura da garrafa em 3 partes para medições e após isso cálculo
 **Hab** = Altura total da garrafa
 
 **Ht** = Altura do Tronco de cone
+
 **Hh** = Altura da hiperboloide de 1 face
+
 **hc** = Altura do cilindro "reto"
 
-![](/Img/1.png)
+
+
+![](Img/1.png)
 
 ​								Figura 2: Medições em paquímetro.
 
-![1557765725124](Img\1557765725124.png)
+![1557765725124](Img/1557765725124.png)
 
 ​								Figura 3: Calculo do volume por etapas
 
@@ -133,7 +137,7 @@ Com as informações obtidas de altura para cada parte do projeto
 
 No testes de evolução do código implantado em arduíno observamos que o código implantado se encontrou maior que o esperado somente com a união dos sensores de: cor; temperatura e o display, onde observamos que o código está com 54% da capacidade total do arduino, onde observamos que poderemos trocar o arduíno do uno para o mega, onde o código cai para valores idéias de processo. 
 
-  ![1557701367803](Img\1557701367803.png)
+  ![1557701367803](Img/1557701367803.png)
 
 ​								*Figura 5: Código Arduino teste* 
 
