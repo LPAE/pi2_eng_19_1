@@ -1,3 +1,7 @@
+---
+typora-copy-images-to: ./
+---
+
 ## Introdução
 
 Atualmente a indústria como um todo tem domínio praticamente nulo sobre os processos de produção de suas fabricas. Muitas informações são perdidas, omitidas e processos de melhorias muitas vezes estão defasados ou se distorcem da realidade da produção. Para obtermos redução de custo, qualidade, estoque saudável e não desperdiçar suprimentos é preciso coletar dados do processo como um todo. Precisamos validar as informações coletadas, agrupa-las e então pensar numa solução para determinado problema. 
@@ -22,7 +26,7 @@ Garantiremos a qualidade através das inspeções e testes, mencionados anterior
 
 # Design
 
-![esquematico v1](C:\Users\Clóvis Kuhn\Documents\GitHub\pi2_eng_19_1\Clovis_Kuhn_Kevin_Jahn\esquematico v1.bmp)
+![esquematico v1](C:\Users\Clóvis Kuhn\Documents\GitHub\pi2_eng_19_1\Clovis_Kuhn_Kevin_Jahn\esquematico v1.png)
 
 A realização de um esquemático se faz necessário para nos guiarmos na montagem  do circuito eletrônico e mecânico. Utilizaremos 4 sensores ópticos reflexivos para cada etapa do processo industrial, onde através de um pino digital do Arduino, saberemos a localização da garrafa. É importante sabermos em qual etapa do processo se encontra nossa garrafa para acionarmos os demais sensores do circuito. 
 
