@@ -59,3 +59,4 @@ melhor qualidade, agilidade, menos gastos e assim, no fim, gerando um maior lucr
 | e verificação de rotulagem              | Leitor Código De Barras + USB Host Shield | 1                 |
 | Inspeção                                | Sensor de temperatura MLX90614            | 1                 |
 | e testes                                | Sensor óptico Infravermelho TCRT5000      | 4                 |
+
