@@ -41,6 +41,9 @@ Por estes motivos, a execução do controle automatizado de processos de produç
 
 ​			Indicação sonora de estágio concluído por atuador sonoro.
 
+
+... testando
+
 **REFERÊNCIAS**
 
 JAZDI, N. **Cyber physical systems in the context of Industry 4.0**. 2014 IEEE International Conference on Automation, Quality and Testing, Robotics. DOI: 10.1109/AQTR.2014.6857843. IEE, 2014.
