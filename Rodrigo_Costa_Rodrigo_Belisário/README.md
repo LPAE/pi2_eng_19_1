@@ -27,7 +27,10 @@ Por estes motivos, a execução do controle automatizado de processos de produç
 
 ###### 	**Requisito funcional 3 - Verificação de rotulagem**	
 
-​		Para a verificação de rotulagem, será utilizado uma Webcam C920 utilizando a biblioteca OpenCV para processamento de imagem e verificação da angulação do rótulo para analisar se foi posto e se foi disposto corretamente (angulação). Também será utilizado um algoritmo de detecção de código barras par obter os parâmetros gerais do produto, que são: país de fabricação, número da empresa e número do produto.
+​		Para a verificação de rotulagem, será utilizado uma Webcam C920 utilizando a biblioteca OpenCV para processamento de imagem e verificação da angulação do rótulo para analisar se foi posto e se foi disposto corretamente (angulação). Também será utilizado um algoritmo de detecção de código barras par obter os parâmetros gerais do produto, que são: país de fabricação, número da empresa e número do produto. A análise do código de barras é feita utilizando o seguinte fluxo de processos.
+
+![Algoritmo da leitura de código de barras](algoritmo_barcode.jpg)
+
 
 ###### 	**Requisito funcional 4 - Leitura OCR** 
 
@@ -42,7 +45,13 @@ Por estes motivos, a execução do controle automatizado de processos de produç
 ​			Indicação sonora de estágio concluído por atuador sonoro.
 
 
-... testando
+#### DESIGN
+
+    Para a visualização do sistema em blocos funcionais, desenvolveu-se uma planta eletrônica contendo todos os blocos presentes no sistema implementado. A planta eletrônica do projeto "Bottle Quality Control" pode ser vista em seguida:
+    
+    
+![Planta eletrônica do sistema](planta.bmp)
+    
 
 **REFERÊNCIAS**
 
