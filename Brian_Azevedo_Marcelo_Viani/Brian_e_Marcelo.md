@@ -302,6 +302,7 @@ Na operação do projeto a garrafa vai transitar nas posições em que estão di
 * Temperatura
 * Volume
 * Cor
+
 Para o volume foi feito uma operação binaria, se estiver dentro do padrão(1,5L), vai ser impressa uma mensagem falando que está correto o volume de suco e para volumes menores, vai ter a mensagem que está fora dos padrões. 
 Para a cor, foram feitas medições para ver a faixa do código RGB que a cor do suco está e vai aprovar se estiver nesta faixa de cor apenas se o volume também estiver correto, para casos em que a cor está fora do esperado ou o volume não é 1,5L a garrafa não vai ser aprovada.
 
