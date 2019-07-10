@@ -61,7 +61,8 @@ Projetou-se um sistema de software multiplataforma, com interface homem máquina
 ## IMPLEMENTAÇÃO  
 Implementou-se um software para controle e monitoramento do processo de produção: "BQC GUI" (Bottle Quality Control Guided User Interface" 
 #### Altura  
-Para a leitura de altura, implementou-se um algoritmo em software para contagem de quantidade de pixels a partir de um objeto na imagem. Resultados nas figuras abaixo:
+Para a leitura de altura, além do cálculo por altura de envase pelo sensor ultrassÔnico, implementou-se um algoritmo em software para contagem de quantidade de pixels a partir de um objeto na imagem. Resultados nas figuras abaixo:
+A detecção de altura em pixels foi possibiltiada atráves dos processos a seguir de: escolha de threshold, subtração de fundo e filtro HSV.
 ->![Algoritmo processamento de imagem](Imagens/altura (1).png)<-  
 ->![Algoritmo processamento de imagem](Imagens/altura (2).png)<-  
 ->![Algoritmo processamento de imagem](Imagens/altura (3).png)<-  
