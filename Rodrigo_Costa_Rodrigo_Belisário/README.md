@@ -3,7 +3,16 @@
 # Controle de produção de uma garrafa de suco de uva
 ###### *Rodrigo Belisário Ramos*
 ###### *Rodrigo Luiz da Costa*
-# Projeto Bottle Quality Control (BQC)
+# Projeto Bottle Quality Control (BQC)  
+  Desenvolvimento de um sistema microcontrolado e uma interface de software para controle e monitoramento do processo de produção de uma garrafa de suco de uva da marca "Gran Legado", com objetivo de obter as seguintes informações:
+  ###### Altura do líquido envasado
+  ###### Cor do líquido envasado
+  ###### Temperatura ambiente durante processo de produção
+  ###### Umidade relativa do ar ambiente durante processo de produção
+  ###### Código de barras do produto
+  ###### Tipo do código de barras
+  ###### Registro MAPA do produto
+  ###### Status de aprovação da garrafa  
 ## INDÚSTRIA 4.0
   Atualmente vivenciamos a quarta Revolução Industrial. As novas tecnologias desenvolvidas, permitem que máquinas executem novas funcionalidades devido à sua conectividade à rede e maior facilidade no acesso às informações, alterando significativamente o nosso dia a dia.  
 Neste contexto, novos modelos de negócios, processos de trabalho e métodos de desenvolvimento que eram inimagináveis estão surgindo. Essas mudanças influenciarão fortemente os hábitos sociais e as perspectivas de mercado. (JAZDI, 2014).
@@ -36,19 +45,22 @@ Projetou-se uma calibração prévia com o líquido ideal, para armazenar os val
 ​	Sensores de presença IR E18-D80NJ para os três estágios de produção, possibilitando um processo sequencial sem falhas de inserção.
 ​	Monitoramento de temperatura e umidade com o sensor DHT22.
 ![Sensor de temperatura e umidade](Imagens/dht22.jpg)
-​	Indicação sonora de estágio concluído por atuador sonoro, que será um buzzer com oscilador interno..
+​	Indicação sonora de estágio concluído por atuador sonoro, que será um buzzer com oscilador interno.
 ![Buzzer](Imagens/buzzer.jpg)
 
 ## DESIGN
     Para a visualização do sistema em blocos funcionais, desenvolveu-se uma planta eletrônica contendo todos os blocos presentes no sistema implementado. A planta eletrônica do projeto "Bottle Quality Control" pode ser vista em seguida:
 ![Planta eletrônica do sistema](Imagens/planta.bmp)    
-    Para a implementação do processamento de imagem que fará a aquisição do código de barras a partir da imagem gravada pelo webcam do dispositivo, projetou-se o seguinte fluxograma: 
-    
-![Algoritmo da leitura de código de barras](Imagens/algoritmo_barcode.jpg)
+    Para a implementação do processamento de imagem que fará a aquisição do código de barras a partir da imagem gravada pelo webcam do dispositivo, projetou-se o seguinte fluxograma:  
+    ![Algoritmo da leitura de código de barras](Imagens/algoritmo_barcode.jpg)
 
-## IMPLEMENTAÇÃO
+## IMPLEMENTAÇÃO  
+Implementou-se um software para controle e monitoramento do processo de produção: "BQC GUI" (Bottle Quality Control Guided User Interface" 
+#### Altura
+#### Código de barras
+Resultado da leitura do código de barras no BQC GUI
 ![Algoritmo da leitura de código de barras](Imagens/algoritmo_barcode.jpg)
-
+#### e
 
 ## OPERACIONALIZAÇÃO
 Por fim, fez-se os ajustes funcionais no software de controle de produção BQC GUI e obteve-se o seguinte resultado de interface:
@@ -56,8 +68,6 @@ Por fim, fez-se os ajustes funcionais no software de controle de produção BQC 
 
 
 ## REFERÊNCIAS
-JAZDI, N. **Cyber physical systems in the context of Industry 4.0**. 2014 IEEE International Conference on Automation, Quality and Testing, Robotics. DOI: 10.1109/AQTR.2014.6857843. IEE, 2014.
-
-BOSCH. **Industry 4.0.** Disponível em: https://www.bosch.com/stories/industry-for-individualists/. Acesso em 18/02/2019.
-
+JAZDI, N. **Cyber physical systems in the context of Industry 4.0**. 2014 IEEE International Conference on Automation, Quality and Testing, Robotics. DOI: 10.1109/AQTR.2014.6857843. IEE, 2014.  
+BOSCH. **Industry 4.0.** Disponível em: https://www.bosch.com/stories/industry-for-individualists/. Acesso em 18/02/2019.  
 LEGRAND. **The Eliot Program**. Disponível em: <https://www.legrand.com/en/group/eliot-legrands-connected-objects-program>. Acesso em 20/03/2019.
