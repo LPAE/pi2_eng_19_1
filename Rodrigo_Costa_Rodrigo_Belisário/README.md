@@ -39,13 +39,14 @@ Projetou-se uma calibração prévia com o líquido ideal, para armazenar os val
 ​	Para a verificação de rotulagem, será utilizado uma Webcam C920 utilizando a biblioteca OpenCV para processamento de imagem e verificação da angulação do rótulo para analisar se foi posto e se foi disposto corretamente (angulação). Também será utilizado um algoritmo de detecção de código barras par obter os parâmetros gerais do produto, que são: país de fabricação, número da empresa e número do produto. A análise do código de barras é feita utilizando o seguinte fluxo de processos.
 
 ###### 	**Requisito funcional 4 - Leitura OCR** 
-​	Para a leitura OCR das grandezas, será utilizado uma Webcam C920 utilizando a biblioteca OpenCV para processamento de imagem, identificando os parâmetros de, lote, validade e local de produção utilizando os caracteres disponíveis no registro mapa. A webcam C920 pode ser vista na figura abaixo.  
-->![Interface final BQC GUI](Imagens/bqc_system.jpg)<-  
+​	Para a leitura OCR das grandezas, será utilizado uma Webcam C920 utilizando a biblioteca OpenCV para processamento de imagem, identificando os parâmetros de, lote, validade e local de produção utilizando os caracteres disponíveis no registro mapa.  
+A webcam C920 pode ser vista na figura abaixo. Ela será usada nas etapass de leitura de código de barras e OCR do registro MAPA.
+->![Interface final BQC GUI](Imagens/c920.jpg)<-  
 ###### 	**Requisito opcionais** **Temperatura/Umidade**
 ​	Sensores de presença IR E18-D80NJ para os três estágios de produção, possibilitando um processo sequencial sem falhas de inserção.
-​	Monitoramento de temperatura e umidade com o sensor DHT22.
+​	Monitoramento de temperatura e umidade com o sensor DHT22.  
 ->![Sensor de temperatura e umidade](Imagens/dht22.jpg)<-
-​	Indicação sonora de estágio concluído por atuador sonoro, que será um buzzer com oscilador interno.
+​	Indicação sonora de estágio concluído por atuador sonoro, que será um buzzer com oscilador interno.  
 ->![Buzzer](Imagens/buzzer.jpg)<-
 
 ## DESIGN
@@ -64,9 +65,12 @@ Resultado da leitura do código de barras no BQC GUI
 
 ## OPERACIONALIZAÇÃO
 Por fim, fez-se os ajustes funcionais no software de controle de produção BQC GUI e obteve-se o seguinte resultado de interface:
-->![Interface final BQC GUI](Imagens/bqc_system.jpg)<-  
+->![Interface final BQC GUI](Imagens/interface_final.jpg)<-  
+  
 Projetou-se a estruta mecânica para fixação dos dispositivos de controle e o resultado do hardware montado do sistema pode ser visto abaixo.
-->![Interface final hardware BQC](Imagens/b.jpg)<-
+->![Interface final hardware BQC](Imagens/bqc_system.jpg)<-
+  
+  
 
 
 ## REFERÊNCIAS
