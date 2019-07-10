@@ -42,10 +42,11 @@ Projetou-se uma calibração prévia com o líquido ideal, para armazenar os val
 ​	Para a leitura OCR das grandezas, será utilizado uma Webcam C920 utilizando a biblioteca OpenCV para processamento de imagem, identificando os parâmetros de, lote, validade e local de produção utilizando os caracteres disponíveis no registro mapa.  
 A webcam C920 pode ser vista na figura abaixo. Ela será usada nas etapass de leitura de código de barras e OCR do registro MAPA.
 ->![Interface final BQC GUI](Imagens/c920.png)<-  
-###### 	**Requisito opcionais** **Temperatura/Umidade**
+##### Temperatura/Umidade
 ​	Sensores de presença IR E18-D80NJ para os três estágios de produção, possibilitando um processo sequencial sem falhas de inserção.
 ​	Monitoramento de temperatura e umidade com o sensor DHT22.  
 ->![Sensor de temperatura e umidade](Imagens/dht22.jpg)<-
+##### **Aviso sonoro*  
 ​	Indicação sonora de estágio concluído por atuador sonoro, que será um buzzer com oscilador interno.  
 ->![Buzzer](Imagens/buzzer.jpg)<-
 
@@ -61,8 +62,8 @@ Projetou-se um sistema de software multiplataforma, com interface homem máquina
 Implementou-se um software para controle e monitoramento do processo de produção: "BQC GUI" (Bottle Quality Control Guided User Interface" 
 #### Altura
 #### Código de barras
-Resultado da leitura do código de barras no BQC GUI
-->![Algoritmo da leitura de código de barras](Imagens/algoritmo_barcode.jpg)<-
+Resultado da leitura do código de barras no BQC GUI. Como resultado, tem-se o contorno ativo somente da região com o código de barras (em azul). A imagem dentro da zona azul irá passar por um algoritmo de contagem do código e responder os valores via comunicação serial e LCD 16X2.
+->![Algoritmo da leitura de código de barras](Imagens/barcode_capture.jpg)<-
 #### e
 
 ## OPERACIONALIZAÇÃO
