@@ -308,6 +308,9 @@ Para a cor, foram feitas medições para ver a faixa do código RGB que a cor do
 
 ## Referências bibliográficas
 Código para MLX90614 https://github.com/adafruit/Adafruit-MLX90614-Library
+
 Código para JSN-SR04T https://bitbucket.org/teckel12/arduino-new-ping/wiki/Home
+
 Leitor de código de barras https://github.com/ZBar/ZBar
-As fórmulas para o cálculo do volume utilizadas foram providas pela equipe do Otavio e do Thiago https://github.com/LPAE/pi2_eng_19_1/blob/master/Otavio_Freire_Thiago_Lira/Documento_T%C3%A9cnico_Otavio_Thiago.md
+
+As fórmulas para o cálculo do volume utilizadas foram cedidas pela equipe do Otavio e do Thiago https://github.com/LPAE/pi2_eng_19_1/blob/master/Otavio_Freire_Thiago_Lira/Documento_T%C3%A9cnico_Otavio_Thiago.md
