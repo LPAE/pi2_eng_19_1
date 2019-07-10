@@ -50,11 +50,11 @@ A webcam C920 pode ser vista na figura abaixo. Ela será usada nas etapass de le
 ​	Indicação sonora de estágio concluído por atuador sonoro, que será um buzzer com oscilador interno.  
 ->![Buzzer](Imagens/buzzer.jpg)<-
 
-## DESIGN
-    Para a visualização do sistema em blocos funcionais, desenvolveu-se uma planta eletrônica contendo todos os blocos presentes no sistema implementado. A planta eletrônica do projeto "Bottle Quality Control" pode ser vista em seguida:  
-->![Planta eletrônica do sistema](Imagens/planta.bmp)<-
-    Para a implementação do processamento de imagem que fará a aquisição do código de barras a partir da imagem gravada pelo webcam do dispositivo, projetou-se o seguinte fluxograma:   
-->![Algoritmo da leitura de código de barras](Imagens/algoritmo_barcode.jpg)<-
+## DESIGN  
+Para a visualização do sistema em blocos funcionais, desenvolveu-se uma planta eletrônica contendo todos os blocos presentes no sistema implementado. A planta eletrônica do projeto "Bottle Quality Control" pode ser vista em seguida:  
+->![Planta eletrônica do sistema](Imagens/planta.bmp)<-  
+Para a implementação do processamento de imagem que fará a aquisição do código de barras a partir da imagem gravada pelo webcam do dispositivo, projetou-se o seguinte fluxograma:   
+->![Algoritmo da leitura de código de barras](Imagens/algoritmo_barcode.jpg)<-  
 ###### Requisitos de software  
 Projetou-se um sistema de software multiplataforma, com interface homem máquina simples, por meio de botões e caixas de texto, que permita a visualização em tempo real das variáveis do processo de produção.
 
@@ -64,7 +64,7 @@ Implementou-se um software para controle e monitoramento do processo de produç�
 Para a leitura de altura, além do cálculo por altura de envase pelo sensor ultrassÔnico, implementou-se um algoritmo em software para contagem de quantidade de pixels a partir de um objeto na imagem. Resultados nas figuras abaixo:
 A detecção de altura em pixels foi possibiltiada atráves dos processos a seguir de: escolha de threshold, subtração de fundo e filtro HSV.
 1:  
-->![Processamento de altura 1](Imagens/altura (1).png)<-  
+->![Sensor altura 1](Imagens/altura (1).png)<-  
 2:
 ->![Processamento de altura 2](Imagens/altura (2).png)<-  
 3:  
