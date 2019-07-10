@@ -62,7 +62,10 @@ Projetou-se um sistema de software multiplataforma, com interface homem máquina
 Implementou-se um software para controle e monitoramento do processo de produção: "BQC GUI" (Bottle Quality Control Guided User Interface" 
 #### Altura  
 Para a leitura de altura, além do cálculo por altura de envase pelo sensor ultrassÔnico, implementou-se um algoritmo em software para contagem de quantidade de pixels a partir de um objeto na imagem. Resultados nas figuras abaixo:
-A detecção de altura em pixels foi possibiltiada atráves dos processos a seguir de: escolha de threshold, subtração de fundo e filtro HSV.
+A detecção de altura em pixels foi possibiltiada atráves dos processos a seguir de: escolha de threshold, subtração de fundo e filtro HSV.  
+->![Processamento de altura 4](Imagens/altura1.png)<-  
+->![Processamento de altura 4](Imagens/altura2.png)<-  
+->![Processamento de altura 4](Imagens/altura3.png)<-  
 ->![Processamento de altura 4](Imagens/altura4.png)<-
 #### Código de barras
 Resultado da leitura do código de barras no BQC GUI. Como resultado, tem-se o contorno ativo somente da região com o código de barras (em azul). A imagem dentro da zona azul irá passar por um algoritmo de contagem do código e responder os valores via comunicação serial e LCD 16X2.
