@@ -63,13 +63,6 @@ Implementou-se um software para controle e monitoramento do processo de produç�
 #### Altura  
 Para a leitura de altura, além do cálculo por altura de envase pelo sensor ultrassÔnico, implementou-se um algoritmo em software para contagem de quantidade de pixels a partir de um objeto na imagem. Resultados nas figuras abaixo:
 A detecção de altura em pixels foi possibiltiada atráves dos processos a seguir de: escolha de threshold, subtração de fundo e filtro HSV.
-1:  
-->![Sensor altura 1](Imagens/altura1.png)<-  
-2:
-->![Processamento de altura 2](Imagens/altura2.png)<-  
-3:  
-->![Processamento de altura 3](Imagens/altura3.png)<-  
-4:  
 ->![Processamento de altura 4](Imagens/altura4.png)<-
 #### Código de barras
 Resultado da leitura do código de barras no BQC GUI. Como resultado, tem-se o contorno ativo somente da região com o código de barras (em azul). A imagem dentro da zona azul irá passar por um algoritmo de contagem do código e responder os valores via comunicação serial e LCD 16X2.
