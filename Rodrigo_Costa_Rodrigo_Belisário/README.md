@@ -41,7 +41,7 @@ Projetou-se uma calibração prévia com o líquido ideal, para armazenar os val
 ###### 	**Requisito funcional 4 - Leitura OCR** 
 ​	Para a leitura OCR das grandezas, será utilizado uma Webcam C920 utilizando a biblioteca OpenCV para processamento de imagem, identificando os parâmetros de, lote, validade e local de produção utilizando os caracteres disponíveis no registro mapa.  
 A webcam C920 pode ser vista na figura abaixo. Ela será usada nas etapass de leitura de código de barras e OCR do registro MAPA.
-->![Interface final BQC GUI](Imagens/c920.jpg)<-  
+->![Interface final BQC GUI](Imagens/c920.png)<-  
 ###### 	**Requisito opcionais** **Temperatura/Umidade**
 ​	Sensores de presença IR E18-D80NJ para os três estágios de produção, possibilitando um processo sequencial sem falhas de inserção.
 ​	Monitoramento de temperatura e umidade com o sensor DHT22.  
