@@ -163,7 +163,7 @@ No testes de evolução do código implantado em Arduino observamos que o códig
 
    
 
-   ![ggg](C:\Users\Thiago Lira\Documents\IFSC\PI2\Otavio_Freire_Thiago_Lira\Img\ggg.jpg)
+   ![ggg](C:\Users\Thiago Lira\Documents\IFSC\PI2\Otavio_Freire_Thiago_Lira\Img/ggg.jpg)
 
    
 
@@ -183,23 +183,21 @@ No testes de evolução do código implantado em Arduino observamos que o códig
 
    ​				
 
-   
-
    Sensor de Temperatura - Mostrava a temperatura do liquido
 
    ​				No **GY-906**  foi mais ideal usa-lo já que o líquido suporta bastante variações de temperatura, e nessa questão foi monitorado somente a temperatura externa, e a temperatura interna do líquido.
 
-   ​			
+   
 
    5. Operação (O)
 
-      ​	
+   ​	
 
-      ​	Nesta parte de operação novamente leves ajustes foram feitos para mantermos o sensores nivelados e a marcações no tablado foram realizados para delimitar a área de atuação de cada sensor, ajustes no sensor de presença foram feitos pois quanto mais próximo o sensor de presença, mais idealmente a análise e a interrupção do sistema para verificação do ponto se torna.
+   ​	Nesta parte de operação novamente leves ajustes foram feitos para mantermos o sensores nivelados e a marcações no tablado foram realizados para delimitar a área de atuação de cada sensor, ajustes no sensor de presença foram feitos pois quanto mais próximo o sensor de presença, mais idealmente a análise e a interrupção do sistema para verificação do ponto se torna.
 
 
 
-![gg1](C:\Users\Thiago Lira\Documents\IFSC\PI2\Otavio_Freire_Thiago_Lira\Img\gg1.jpg)
+![gg1](C:\Users\Thiago Lira\Documents\IFSC\PI2\Otavio_Freire_Thiago_Lira\Img/gg1.jpg)
 
 
 
