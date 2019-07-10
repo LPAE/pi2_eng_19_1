@@ -1,4 +1,11 @@
-#### **INTRODUÇÃO**
+# Projeto Integrador II - Engenharia Eletrônica
+![Metodologia CDIO](Imagens/cdio.jpg)
+# Controle de produção de uma garrafa de suco de uva
+###### *Rodrigo Belisário Ramos*
+###### *Rodrigo Luiz da Costa*
+
+# Projeto Bottle Quality Control (BQC)
+### INTRODUÇÃO
 
 Atualmente vivenciamos a quarta Revolução Industrial. As novas tecnologias desenvolvidas, permitem que máquinas executem novas funcionalidades devido à sua conectividade à rede e maior facilidade no acesso às informações, alterando significativamente o nosso dia a dia.
 
