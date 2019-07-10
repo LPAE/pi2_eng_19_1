@@ -135,11 +135,73 @@ Com as informações obtidas de altura para cada parte do projeto
 
 ​	3.4 Documentar resultados (Arduino)
 
-No testes de evolução do código implantado em arduíno observamos que o código implantado se encontrou maior que o esperado somente com a união dos sensores de: cor; temperatura e o display, onde observamos que o código está com 54% da capacidade total do arduino, onde observamos que poderemos trocar o arduíno do uno para o mega, onde o código cai para valores idéias de processo. 
+No testes de evolução do código implantado em Arduino observamos que o código implantado se encontrou maior que o esperado somente com a união dos sensores de: cor; temperatura e o display, onde observamos que o código está com 54% da capacidade total do Arduino, onde observamos que poderemos trocar o Arduino do uno para o mega, onde o código cai para valores ideias de processo. 
 
   ![1557701367803](Img/1557701367803.png)
 
 ​								*Figura 5: Código Arduino teste* 
+
+
+
+4. Implementar (I)
+
+   ​	4.1  Modelar elementos para ser possível fazer verificações e medidas, mediante o uso de recursos tecnológicos
+
+   ​		
+
+   ​			Nesta etapa de projeto foi verificado que como os sensores estariam em sua grande maioria na parte superior da garrafa para atender os critérios de projeto em um setor empresarial de produção, foi necessário compensar a utilização de fios de ligação com fios disponibilizados pelo Almoxarifado do IFSC - Florianópolis de cabo de rede, onde a interligação dos terminais dos sensores com os fios foi feita por estanho, e a interligação dos cabos de rede com os sensores foi necessário conectar através de solda um jumper que em relação ao cabo de rede tem uma ligação mais segura com o arduino em sí. Evitando maiores chances de mal contato dos terminais e danificando o circuito integrado dos sensores com o arduino e protoboard.
+
+   
+
+   ​	4.2   Elaborar os algoritmos necessários ao atendimento dos requisitos para o projeto
+
+   ​			
+
+   ​			Através da análise de que os sensores deveriam atender os critérios de setor de produção empresarial, foi destacado a operação dos sensores através da autorização do sensor de presença 
+
+   **TCRT5000T** por meio de interrupção, onde quando verificado a interrupção do sensor faria a verificação da região solicitada, e somente mostraria a informação no **display I2C** através desta interrupção. Como visamos a operação empresarial foi destacado assim:
+
+   
+
+   ![ggg](C:\Users\Thiago Lira\Documents\IFSC\PI2\Otavio_Freire_Thiago_Lira\Img\ggg.jpg)
+
+   
+
+   Sensor RGB - Mostra a cor do líquido 
+
+   ​				Se o **TCS230** fosse mostrado uma cor de vinho ou roxo mostrava "produto válido".
+
+   ​				Se o **TCS230** fosse mostrado uma cor levemente diferente de vinho ou roxo, como vermelho ou lilás mostrava "revisar ".
+
+   ​				Se o **TCS230** fosse apresentado uma cor totalmente disturbada do vinho ou roxo mostrava "inválido".
+
+   
+
+   Sensor de altura - Mostrava o volume do líquido
+
+   ​				Se o **JSN - SR04T** fosse mostrado uma altura inferior ao de 25 cm do líquido e 27 cm do líquido  em relação a base da garrafa mostrada "produto inválido" devido a 1,5L estar em torno da área de tronco de cone da garrafa. Por esta razão, diversos ajustes foram feitos para conseguir colocar o sensor de distância exatamente perfeitamente no diâmetro da boca da garrafa, para leitura do seu volume, por dias foi difícil ajustar, pois pegava a boca da garrafa.
+
+   ​				
+
+   
+
+   Sensor de Temperatura - Mostrava a temperatura do liquido
+
+   ​				No **GY-906**  foi mais ideal usa-lo já que o líquido suporta bastante variações de temperatura, e nessa questão foi monitorado somente a temperatura externa, e a temperatura interna do líquido.
+
+   ​			
+
+   5. Operação (O)
+
+      ​	
+
+      ​	Nesta parte de operação novamente leves ajustes foram feitos para mantermos o sensores nivelados e a marcações no tablado foram realizados para delimitar a área de atuação de cada sensor, ajustes no sensor de presença foram feitos pois quanto mais próximo o sensor de presença, mais idealmente a análise e a interrupção do sistema para verificação do ponto se torna.
+
+
+
+![gg1](C:\Users\Thiago Lira\Documents\IFSC\PI2\Otavio_Freire_Thiago_Lira\Img\gg1.jpg)
+
+
 
 Todas as informações do projeto são de direito de Thiago Lira e Otávio Freire.
 
