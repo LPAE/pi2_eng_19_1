@@ -54,6 +54,8 @@ A webcam C920 pode ser vista na figura abaixo. Ela será usada nas etapass de le
 ->![Planta eletrônica do sistema](Imagens/planta.bmp)<-
     Para a implementação do processamento de imagem que fará a aquisição do código de barras a partir da imagem gravada pelo webcam do dispositivo, projetou-se o seguinte fluxograma:   
 ->![Algoritmo da leitura de código de barras](Imagens/algoritmo_barcode.jpg)<-
+###### Requisitos de software  
+Projetou-se um sistema de software multiplataforma, com interface homem máquina simples, por meio de botões e caixas de texto, que permita a visualização em tempo real das variáveis do processo de produção.
 
 ## IMPLEMENTAÇÃO  
 Implementou-se um software para controle e monitoramento do processo de produção: "BQC GUI" (Bottle Quality Control Guided User Interface" 
