@@ -60,10 +60,15 @@ Projetou-se um sistema de software multiplataforma, com interface homem máquina
 
 ## IMPLEMENTAÇÃO  
 Implementou-se um software para controle e monitoramento do processo de produção: "BQC GUI" (Bottle Quality Control Guided User Interface" 
-#### Altura
+#### Altura  
+Para a leitura de altura, implementou-se um algoritmo em software para contagem de quantidade de pixels a partir de um objeto na imagem. Resultados nas figuras abaixo:
+->![Algoritmo processamento de imagem](Imagens/altura (1).png)<-  
+->![Algoritmo processamento de imagem](Imagens/altura (2).png)<-  
+->![Algoritmo processamento de imagem](Imagens/altura (3).png)<-  
+->![Algoritmo processamento de imagem](Imagens/altura (4).png)<-
 #### Código de barras
 Resultado da leitura do código de barras no BQC GUI. Como resultado, tem-se o contorno ativo somente da região com o código de barras (em azul). A imagem dentro da zona azul irá passar por um algoritmo de contagem do código e responder os valores via comunicação serial e LCD 16X2.
-->![Algoritmo da leitura de código de barras](Imagens/barcode_capture.jpg)<-
+->![Algoritmo da leitura de código de barras](Imagens/barcode_capture.png)<-
 #### e
 
 ## OPERACIONALIZAÇÃO
