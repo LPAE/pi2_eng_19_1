@@ -49,10 +49,10 @@ Projetou-se uma calibração prévia com o líquido ideal, para armazenar os val
 ->![Buzzer](Imagens/buzzer.jpg)<-
 
 ## DESIGN
-    Para a visualização do sistema em blocos funcionais, desenvolveu-se uma planta eletrônica contendo todos os blocos presentes no sistema implementado. A planta eletrônica do projeto "Bottle Quality Control" pode ser vista em seguida:
-![Planta eletrônica do sistema](Imagens/planta.bmp)    
-    Para a implementação do processamento de imagem que fará a aquisição do código de barras a partir da imagem gravada pelo webcam do dispositivo, projetou-se o seguinte fluxograma:  
-    ![Algoritmo da leitura de código de barras](Imagens/algoritmo_barcode.jpg)
+    Para a visualização do sistema em blocos funcionais, desenvolveu-se uma planta eletrônica contendo todos os blocos presentes no sistema implementado. A planta eletrônica do projeto "Bottle Quality Control" pode ser vista em seguida:  
+->![Planta eletrônica do sistema](Imagens/planta.bmp)<-
+    Para a implementação do processamento de imagem que fará a aquisição do código de barras a partir da imagem gravada pelo webcam do dispositivo, projetou-se o seguinte fluxograma:   
+->![Algoritmo da leitura de código de barras](Imagens/algoritmo_barcode.jpg)<-
 
 ## IMPLEMENTAÇÃO  
 Implementou-se um software para controle e monitoramento do processo de produção: "BQC GUI" (Bottle Quality Control Guided User Interface" 
@@ -64,7 +64,9 @@ Resultado da leitura do código de barras no BQC GUI
 
 ## OPERACIONALIZAÇÃO
 Por fim, fez-se os ajustes funcionais no software de controle de produção BQC GUI e obteve-se o seguinte resultado de interface:
-![Interface final BQC GUI](Imagens/interface_final.jpg)
+->![Interface final BQC GUI](Imagens/interface_final.jpg)<-  
+Projetou-se a estruta mecânica para fixação dos dispositivos de controle e o resultado do hardware montado do sistema pode ser visto abaixo.
+->![Interface final BQC GUI](Imagens/interface_final.jpg)<-
 
 
 ## REFERÊNCIAS
