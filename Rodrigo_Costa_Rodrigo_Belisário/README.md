@@ -25,7 +25,9 @@ Neste contexto, novos modelos de negócios, processos de trabalho e métodos de 
 
 ###### 	**Requisito funcional 2 - Análise da coloração do líquido**
 
-​	Para monitoramento da coloração do líquido da matéria prima será utilizado o sensor de cor TCS3200.
+​	Para monitoramento da coloração do líquido da matéria prima será utilizado o sensor de cores RGB TCS3200.  
+Projetou-se uma calibração prévia com o líquido ideal, para armazenar os valores de comparação e margem de erro para o líquido ideal a ser aprovado no processo de produção.
+![Sensor de cores RGB](Imagens/sensor_de_cor.bmp)
 
 ###### 	**Requisito funcional 3 - Verificação de rotulagem**	
 
