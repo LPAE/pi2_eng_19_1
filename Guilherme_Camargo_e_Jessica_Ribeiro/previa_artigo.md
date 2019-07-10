@@ -3,14 +3,9 @@ IFSC Câmpus Florianópolis
 
 Departamento Acadêmico de Eletrônica
 
-Professores: Fernando Pedro Henrique de Miranda
+Professores: Fernando Pedro Henrique de Miranda / Luiz Alberto de Azevedo
 
-​					   Luiz Alberto de Azevedo
-
-Alunos: Guilherme Camargo Valese
-
-​			   Jéssica Ramos Ribeiro
-
+Alunos: Guilherme Camargo Valese / Jéssica Ramos Ribeiro
 
 
 ## 1 Introdução
@@ -52,7 +47,7 @@ Para todas as verificações que forem positivas, o processo continuará de onde
 
 ​	O módulo LCD utilizado no projeto foi o Hitachi HD44780 que inclui caracteres ASCII, caracteres japoneses e alguns símbolos em duas linhas de 16 caracteres. 
 
-![](/imagens/lcd.jpg)
+![](imagens/lcd.jpg)
 
 ## 2.3 Sensor de temperatura MLX90614
 
@@ -60,25 +55,25 @@ Para todas as verificações que forem positivas, o processo continuará de onde
 
 ​	Um ADC interno de 17 bits e um poderoso DSP contribuem para a alta precisão e resolução do MLX90614. A comunicação com o microcontrolador é feita via interface I2C ocupando assim apenas 2 pinos do microcontrolador. A alimentação desse módulo é de 3,3V.
 
-![](/imagens/mlx90614.jpg)
+![](imagens/mlx90614.jpg)
 
 ## 2.4 Sensor Ultrassônico
 
 ​	O JSN-SR04T é um sensor de distância ultra-sônico à prova d'água, fácil de usar, com uma faixa de 25 a 450 cm. O sensor vem com um cabo de 2,5 m de comprimento que se conecta a uma placa de fuga que controla o sensor e faz todo o processamento do sinal. Um sensor de distância ultrassônico funciona enviando ondas de ultra-som. Essas ondas de ultra-som são refletidas de volta por um objeto e o sensor 	ultrassônico às detecta.
 
-![](/imagens/jsn04t.jpg)
+![](imagens/jsn04t.jpg)
 
 ## 2.5 Sensor de cor
 
 ​	O sensor de cor TCS3200 é um detector de cor completo, incluindo um chip sensor TAOS TCS3200 RGB e 4 LEDs brancos. O TCS3200 pode detectar e medir um intervalo quase ilimitado de cores visíveis. As aplicações incluem leitura de tiras de teste, classificação por cor, detecção e calibração de luz ambiente e combinação de cores, etc. O sensor opera com tensão de 2,7 à 5,5 V. E suas dimensões são 31 x 25 x 10mm.
 
-![](/imagens/tcs3200.jpg)
+![](imagens/tcs3200.jpg)
 
 ## 2.6 Sensor de posição
 
 ​	Esse sensor é composto por um LED emissor de infravermelho e um foto transistor. O LED emite um feixe de luz invisível ao olho humano, o qual é refletido por uma superfície próxima (3~15mm) e capturado pelo foto transistor, que possui uma película que filtra a luz natural, permitindo a passagem do infravermelho emitido pelo LED. Dessa forma, de acordo com a reflexividade da superfície, o foto transistor recebe um valor maior ou menor de reflexão, mediante o qual pode ser determinada a cor sobre a qual se encontra.
 
-![](/imagens/tcrt5000.jpg)
+![](imagens/tcrt5000.jpg)
 
 ## 2.7 Leitura OCR
 
@@ -86,7 +81,7 @@ Para todas as verificações que forem positivas, o processo continuará de onde
 
 ​	Existem inúmeros tipos de webcams. A maioria pode ser conectada via USB ou até mesmo wireless, podendo ter a posição, zoom e foco ajustados. 
 
-![](/imagens/webcam.jpg)
+![](imagens/webcam.jpg)
 
 Após a captura da imagem, a mesma é convertida para um arquivo de texto por meio do software de reconhecimento óptico tesseract. O tesseract é um software open source criado originalmente pela HP e mantido pelo Google, sua principal aplicação é a conversão de imagens em arquivos txt. Este arquivo é lido e então procurado pelas *strings*  “suco” e “suco de uva”.
 
@@ -94,7 +89,7 @@ Após a captura da imagem, a mesma é convertida para um arquivo de texto por me
 
 ​	Para a leitura do código de barras, foi utilizado o sensor LV1000, que inclui todo o processamento de imagem em um circuito integrado, enviando os caracteres reconhecidos via interface serial. Por não possuir material de fácil acesso na internet, a placa foi analisada para buscar as funções de cada pino. A documentação sobre este sensor ainda está em desenvolvimento.
 
-![](/imagens/lv1000.jpg)
+![](imagens/lv1000.jpg)
 
 
 
@@ -139,39 +134,39 @@ $$
 
 
 
-![](/imagens\pcb.jpeg)
+![](imagens/pcb.jpeg)
 
 ​	A figura acima, mostra a placa que foi utilizada para conectar sensores e o circuito ao Raspberry. O ideal seria a confecção de um layout e assim o LV1000 (leitor do código de barras) poderia ser acoplado ao Raspberry.
 
 
 
-![](/imagens\projeto_montado.jpeg)
+![](imagens/projeto_montado.jpeg)
 
 A figura acima mostra o projeto completo em funcionamento. 
 
 
 
-![](/imagens/case.jpg)
+![](imagens/case.jpg)
 
 ​	A figura acima exibe a case utilizada para proteger o Raspberry e o circuito montado na placa universal. O LCD exibe cada passo do sistema e ,enquanto estiver em espera, um resumo com a quantidade total de garrafas, as aprovadas e reprovadas.
 
 
 
-![](/imagens/camera.jpg)
+![](imagens/camera.jpg)
 
 ​	A figura acima ilustra a webcam utilizada no projeto. Durante os testes, verificou-se que a mesma possui um zoom não configurável, então a garrafa teve que ser posicionada mais longe da câmera, sendo necessário alterar a sua posição após a leitura do sensor de cor.
 
 
 
-![](/imagens\barcode_2.jpg)
+![](imagens/barcode_2.jpg)
 
 
 
-![](/imagens\barcode_3.jpg)
+![](imagens/barcode_3.jpg)
 
 
 
-![](/imagens\raspberry2.jpeg)
+![](imagens/raspberry2.jpeg)
 
 Raspberry Pi model B utilizado para o projeto
 
