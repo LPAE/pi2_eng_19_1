@@ -42,15 +42,21 @@ Projetou-se uma calibração prévia com o líquido ideal, para armazenar os val
 ​	Para a leitura OCR das grandezas, será utilizado uma Webcam C920 utilizando a biblioteca OpenCV para processamento de imagem, identificando os parâmetros de, lote, validade e local de produção utilizando os caracteres disponíveis no registro mapa.  
 A webcam C920 pode ser vista na figura abaixo. Ela será usada nas etapass de leitura de código de barras e OCR do registro MAPA.
 ->![Interface final BQC GUI](Imagens/c920.png)<-  
-##### Temperatura/Umidade
-​	Sensores de presença IR E18-D80NJ para os três estágios de produção, possibilitando um processo sequencial sem falhas de inserção.
-​	Monitoramento de temperatura e umidade com o sensor DHT22.  
+##### Temperatura/Umidade  
+Sensores de presença IR E18-D80NJ para os três estágios de produção, possibilitando um processo sequencial sem falhas de inserção.  
+Monitoramento de temperatura e umidade com o sensor DHT22.    
 ->![Sensor de temperatura e umidade](Imagens/dht22.jpg)<-
-##### **Aviso sonoro*  
-​	Indicação sonora de estágio concluído por atuador sonoro, que será um buzzer com oscilador interno.  
+##### Aviso sonoro   
+Indicação sonora de estágio concluído por atuador sonoro, que será um buzzer com oscilador interno.  
 ->![Buzzer](Imagens/buzzer.jpg)<-
 
-## DESIGN  
+###### **Interface de controle microcontrolada**  
+Uma vez dispondo dos requisitos de projeto supracitados, optou-se pela utilização da plataforma Arduino Uno (Microcontrolador AVR ATmega328P com 16MHz) pois é adequado para a medição de todos os sensores, todos eles com grandezas de baixa variação no tempo, além da aplicação não possuir requisitos de tempo real.
+A plataforma também é compatível com interfaces de comunicação serial, que poderão ser utilizadas para comunicação com software de processamento de imagem de código de barras e leitura OCR.
+Adicionalmente, a plataforma possui muitas bibliotecas de software que poderão ser utilizadas para a implementação e validação dos requisitos.
+->![Arduino Uno](Imagens/arduino.jpg)<-
+
+ ## DESIGN  
 Para a visualização do sistema em blocos funcionais, desenvolveu-se uma planta eletrônica contendo todos os blocos presentes no sistema implementado. A planta eletrônica do projeto "Bottle Quality Control" pode ser vista em seguida:  
 ->![Planta eletrônica do sistema](Imagens/planta.bmp)<-  
 Para a implementação do processamento de imagem que fará a aquisição do código de barras a partir da imagem gravada pelo webcam do dispositivo, projetou-se o seguinte fluxograma:   
