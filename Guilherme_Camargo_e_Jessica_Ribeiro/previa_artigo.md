@@ -39,7 +39,7 @@ Para todas as verificações que forem positivas, o processo continuará de onde
 
 ​	O Raspberry PI é um mini computador do tamanho de um cartão de crédito desenvolvido no Reino Unido pela fundação Raspberry Pi originalmente para ensino da computação básica em escolas. Baseado em um *system on a chip* (SoC) Broadcom BCM2835, que inclui um processador ARM1176JZF-Sde 700 MHz, GPU VideoCore IV, e 512 MB de memória RAM. O armazenamento dos dados se dá em um cartão SD. A placa do Raspberry possui as seguintes dimensões: 85,60 mm de largura × 53,98 mm de comprimento.  Sua facilidade de uso, baixo custo e comunidade ativa fazem do Raspberry uma opção viável para diversos projetos, principalmente. Atualmente existem diversas distros disponíveis para uso, como Arch Linux, Debian, Ubuntu, etc. Para este projeto foi escolhido o Debian pela afinidade dos autores com o mesmo.
 
-![](imagens\raspberry.JPG)
+![](imagens/raspberry.JPG)
 
 ## 2.2 Display LCD 16x02
 
@@ -47,7 +47,7 @@ Para todas as verificações que forem positivas, o processo continuará de onde
 
 ​	O módulo LCD utilizado no projeto foi o Hitachi HD44780 que inclui caracteres ASCII, caracteres japoneses e alguns símbolos em duas linhas de 16 caracteres. 
 
-![](imagens/lcd.jpg)
+![](imagens/lcd.JPG)
 
 ## 2.3 Sensor de temperatura MLX90614
 
@@ -55,25 +55,25 @@ Para todas as verificações que forem positivas, o processo continuará de onde
 
 ​	Um ADC interno de 17 bits e um poderoso DSP contribuem para a alta precisão e resolução do MLX90614. A comunicação com o microcontrolador é feita via interface I2C ocupando assim apenas 2 pinos do microcontrolador. A alimentação desse módulo é de 3,3V.
 
-![](imagens/mlx90614.jpg)
+![](imagens/mlx90614.JPG)
 
 ## 2.4 Sensor Ultrassônico
 
 ​	O JSN-SR04T é um sensor de distância ultra-sônico à prova d'água, fácil de usar, com uma faixa de 25 a 450 cm. O sensor vem com um cabo de 2,5 m de comprimento que se conecta a uma placa de fuga que controla o sensor e faz todo o processamento do sinal. Um sensor de distância ultrassônico funciona enviando ondas de ultra-som. Essas ondas de ultra-som são refletidas de volta por um objeto e o sensor 	ultrassônico às detecta.
 
-![](imagens/jsn04t.jpg)
+![](imagens/jsn04t.JPG)
 
 ## 2.5 Sensor de cor
 
 ​	O sensor de cor TCS3200 é um detector de cor completo, incluindo um chip sensor TAOS TCS3200 RGB e 4 LEDs brancos. O TCS3200 pode detectar e medir um intervalo quase ilimitado de cores visíveis. As aplicações incluem leitura de tiras de teste, classificação por cor, detecção e calibração de luz ambiente e combinação de cores, etc. O sensor opera com tensão de 2,7 à 5,5 V. E suas dimensões são 31 x 25 x 10mm.
 
-![](imagens/tcs3200.jpg)
+![](imagens/tcs3200.JPG)
 
 ## 2.6 Sensor de posição
 
 ​	Esse sensor é composto por um LED emissor de infravermelho e um foto transistor. O LED emite um feixe de luz invisível ao olho humano, o qual é refletido por uma superfície próxima (3~15mm) e capturado pelo foto transistor, que possui uma película que filtra a luz natural, permitindo a passagem do infravermelho emitido pelo LED. Dessa forma, de acordo com a reflexividade da superfície, o foto transistor recebe um valor maior ou menor de reflexão, mediante o qual pode ser determinada a cor sobre a qual se encontra.
 
-![](imagens/tcrt5000.jpg)
+![](imagens/tcrt5000.JPG)
 
 ## 2.7 Leitura OCR
 
@@ -81,7 +81,7 @@ Para todas as verificações que forem positivas, o processo continuará de onde
 
 ​	Existem inúmeros tipos de webcams. A maioria pode ser conectada via USB ou até mesmo wireless, podendo ter a posição, zoom e foco ajustados. 
 
-![](imagens/webcam.jpg)
+![](imagens/webcam.JPG)
 
 Após a captura da imagem, a mesma é convertida para um arquivo de texto por meio do software de reconhecimento óptico tesseract. O tesseract é um software open source criado originalmente pela HP e mantido pelo Google, sua principal aplicação é a conversão de imagens em arquivos txt. Este arquivo é lido e então procurado pelas *strings*  “suco” e “suco de uva”.
 
@@ -89,7 +89,7 @@ Após a captura da imagem, a mesma é convertida para um arquivo de texto por me
 
 ​	Para a leitura do código de barras, foi utilizado o sensor LV1000, que inclui todo o processamento de imagem em um circuito integrado, enviando os caracteres reconhecidos via interface serial. Por não possuir material de fácil acesso na internet, a placa foi analisada para buscar as funções de cada pino. A documentação sobre este sensor ainda está em desenvolvimento.
 
-![](imagens/lv1000.jpg)
+![](imagens/lv1000.JPG)
 
 
 
@@ -120,18 +120,16 @@ O projeto tem caráter qualitativo. Visando o melhor funcionamento da plataforma
 ​	Para o cálculo do volume foi dividido a garrafa em 3 partes: um cilindro (para a parte mais baixa da garrafa), um hiperboloide (para a parte do meio) e um tronco de cone (para a parte de cima da garrafa).
 
 Para o cilindro:
-$$
-Vinf = pi*r²*h
-$$
-Para o hiperboloide:
-$$
-Vmeio = 0,5*pi*r²*L
-$$
-Para o cone:
-$$
-Vsup = (pi/3)*h*(R²+R*r+r²)
-$$
 
+*Vinf = pi.r².h*
+
+Para o hiperboloide:
+
+*Vmeio = 0,5.pi.r².L*
+
+Para o cone:
+
+*Vsup = (pi/3).h.(R²+R.r+r²)*
 
 
 ![](imagens/pcb.jpeg)
