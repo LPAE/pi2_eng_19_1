@@ -12,53 +12,47 @@ Neste contexto, novos modelos de negócios, processos de trabalho e métodos de 
   Por estes motivos, a execução do controle automatizado de processos de produção industrial utilizando plataforma interconectadas é requisito fundamental. Este documento visa descrever as etapas de desenvolvimento desta interface.
 
 ## **CONCEPÇÃO**
-
 ​	O processo de controle industrial  automatizado irá monitorar 4 etapas do processo do produção de uma garrafa de 1.5L de suco de uva.
-
 ​	O processo projetado será sequencial, na ordem descrita pelos requisitos abaixo:
 
 ###### 	**Requisito funcional 1 - Análise da altura do líquido**
-
-​	Será utilizado um suporte afixado de maneira que fique 5cm em cima da parte superior da garrafa, que estará com a tampa aberta no momento da análise.
-
-​	Para o monitoramento da grandeza, será utilizado o sensor ultrassônico JSN-SR04T.
+​	Será utilizado um suporte afixado de maneira que fique 20cm em cima da parte superior da garrafa (distância mínima de aquisição do sensor), que estará com a tampa aberta no momento da análise.
+​	Para o monitoramento da grandeza, será utilizado o sensor ultrassônico JSN-SR04T. 
+![Sensor de altura](Imagens/sensor_ultrassonico.jpg){:height="50%" width="50%"}
+Projeta-se a a utilização de uma webcam para o processamento de imagem para cálculo do volume em função da altura do líquido.  
 
 ###### 	**Requisito funcional 2 - Análise da coloração do líquido**
-
 ​	Para monitoramento da coloração do líquido da matéria prima será utilizado o sensor de cores RGB TCS3200.  
 Projetou-se uma calibração prévia com o líquido ideal, para armazenar os valores de comparação e margem de erro para o líquido ideal a ser aprovado no processo de produção.
-![Sensor de cores RGB](Imagens/sensor_de_cor.bmp)
+![Sensor de cores RGB](Imagens/sensor_de_cor.jpg){:height="50%" width="50%"}
 
 ###### 	**Requisito funcional 3 - Verificação de rotulagem**	
-
 ​	Para a verificação de rotulagem, será utilizado uma Webcam C920 utilizando a biblioteca OpenCV para processamento de imagem e verificação da angulação do rótulo para analisar se foi posto e se foi disposto corretamente (angulação). Também será utilizado um algoritmo de detecção de código barras par obter os parâmetros gerais do produto, que são: país de fabricação, número da empresa e número do produto. A análise do código de barras é feita utilizando o seguinte fluxo de processos.
 
 ###### 	**Requisito funcional 4 - Leitura OCR** 
-
 ​	Para a leitura OCR das grandezas, será utilizado uma Webcam C920 utilizando a biblioteca OpenCV para processamento de imagem, identificando os parâmetros de, lote, validade e local de produção utilizando os caracteres disponíveis no registro mapa. 
 
-###### 	**Requisito opcionais** **- Estado da produção / Temperatura / Umidade**
-
-​	Sensores de presença IR E18-D80NJ para os três estágios de produção (terceiro estágio possui dois subestágios).
-
+###### 	**Requisito opcionais** **Temperatura/Umidade**
+​	Sensores de presença IR E18-D80NJ para os três estágios de produção, possibilitando um processo sequencial sem falhas de inserção.
 ​	Monitoramento de temperatura e umidade com o sensor DHT22.
-
-​	Indicação sonora de estágio concluído por atuador sonoro.
-
+![Sensor de temperatura e umidade](Imagens/dht22.jpg)
+​	Indicação sonora de estágio concluído por atuador sonoro, que será um buzzer com oscilador interno..
+![Buzzer](Imagens/buzzer.jpg)
 
 ## DESIGN
-
     Para a visualização do sistema em blocos funcionais, desenvolveu-se uma planta eletrônica contendo todos os blocos presentes no sistema implementado. A planta eletrônica do projeto "Bottle Quality Control" pode ser vista em seguida:
-    
-![Planta eletrônica do sistema](Imagens/planta.bmp)
-    
+![Planta eletrônica do sistema](Imagens/planta.bmp)    
     Para a implementação do processamento de imagem que fará a aquisição do código de barras a partir da imagem gravada pelo webcam do dispositivo, projetou-se o seguinte fluxograma: 
     
 ![Algoritmo da leitura de código de barras](Imagens/algoritmo_barcode.jpg)
 
 ## IMPLEMENTAÇÃO
+![Algoritmo da leitura de código de barras](Imagens/algoritmo_barcode.jpg)
+
 
 ## OPERACIONALIZAÇÃO
+Por fim, fez-se os ajustes funcionais no software de controle de produção BQC GUI e obteve-se o seguinte resultado de interface:
+![Interface final BQC GUI](Imagens/interface_final.jpg)
 
 
 ## REFERÊNCIAS
