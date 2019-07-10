@@ -27,13 +27,13 @@ Neste contexto, novos modelos de negócios, processos de trabalho e métodos de 
 ###### 	**Requisito funcional 1 - Análise da altura do líquido**
 ​	Será utilizado um suporte afixado de maneira que fique 20cm em cima da parte superior da garrafa (distância mínima de aquisição do sensor), que estará com a tampa aberta no momento da análise.
 ​	Para o monitoramento da grandeza, será utilizado o sensor ultrassônico JSN-SR04T. 
-![Sensor de altura](Imagens/sensor_ultrassonico.jpg){:height="50%" width="50%"}
+->![Sensor de altura](Imagens/sensor_ultrassonico.jpg)<-  
 Projeta-se a a utilização de uma webcam para o processamento de imagem para cálculo do volume em função da altura do líquido.  
 
 ###### 	**Requisito funcional 2 - Análise da coloração do líquido**
 ​	Para monitoramento da coloração do líquido da matéria prima será utilizado o sensor de cores RGB TCS3200.  
 Projetou-se uma calibração prévia com o líquido ideal, para armazenar os valores de comparação e margem de erro para o líquido ideal a ser aprovado no processo de produção.
-![Sensor de cores RGB](Imagens/sensor_de_cor.jpg){:height="50%" width="50%"}
+->![Sensor de cores RGB](Imagens/sensor_de_cor.jpg)<-  
 
 ###### 	**Requisito funcional 3 - Verificação de rotulagem**	
 ​	Para a verificação de rotulagem, será utilizado uma Webcam C920 utilizando a biblioteca OpenCV para processamento de imagem e verificação da angulação do rótulo para analisar se foi posto e se foi disposto corretamente (angulação). Também será utilizado um algoritmo de detecção de código barras par obter os parâmetros gerais do produto, que são: país de fabricação, número da empresa e número do produto. A análise do código de barras é feita utilizando o seguinte fluxo de processos.
@@ -44,9 +44,9 @@ Projetou-se uma calibração prévia com o líquido ideal, para armazenar os val
 ###### 	**Requisito opcionais** **Temperatura/Umidade**
 ​	Sensores de presença IR E18-D80NJ para os três estágios de produção, possibilitando um processo sequencial sem falhas de inserção.
 ​	Monitoramento de temperatura e umidade com o sensor DHT22.
-![Sensor de temperatura e umidade](Imagens/dht22.jpg)
+->![Sensor de temperatura e umidade](Imagens/dht22.jpg)<-
 ​	Indicação sonora de estágio concluído por atuador sonoro, que será um buzzer com oscilador interno.
-![Buzzer](Imagens/buzzer.jpg)
+->![Buzzer](Imagens/buzzer.jpg)<-
 
 ## DESIGN
     Para a visualização do sistema em blocos funcionais, desenvolveu-se uma planta eletrônica contendo todos os blocos presentes no sistema implementado. A planta eletrônica do projeto "Bottle Quality Control" pode ser vista em seguida:
@@ -59,7 +59,7 @@ Implementou-se um software para controle e monitoramento do processo de produç�
 #### Altura
 #### Código de barras
 Resultado da leitura do código de barras no BQC GUI
-![Algoritmo da leitura de código de barras](Imagens/algoritmo_barcode.jpg)
+->![Algoritmo da leitura de código de barras](Imagens/algoritmo_barcode.jpg)<-
 #### e
 
 ## OPERACIONALIZAÇÃO
