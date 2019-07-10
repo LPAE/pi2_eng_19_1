@@ -3,15 +3,13 @@
 # Controle de produção de uma garrafa de suco de uva
 ###### *Rodrigo Belisário Ramos*
 ###### *Rodrigo Luiz da Costa*
-
 # Projeto Bottle Quality Control (BQC)
-### INTRODUÇÃO
-
-Atualmente vivenciamos a quarta Revolução Industrial. As novas tecnologias desenvolvidas, permitem que máquinas executem novas funcionalidades devido à sua conectividade à rede e maior facilidade no acesso às informações, alterando significativamente o nosso dia a dia.
-
+## INDÚSTRIA 4.0
+  Atualmente vivenciamos a quarta Revolução Industrial. As novas tecnologias desenvolvidas, permitem que máquinas executem novas funcionalidades devido à sua conectividade à rede e maior facilidade no acesso às informações, alterando significativamente o nosso dia a dia.  
 Neste contexto, novos modelos de negócios, processos de trabalho e métodos de desenvolvimento que eram inimagináveis estão surgindo. Essas mudanças influenciarão fortemente os hábitos sociais e as perspectivas de mercado. (JAZDI, 2014).
-Para se adequarem à estas mudanças, as grandes empresas de tecnologia estão se atualizando às novas perspectivas e demandas do mercado, segundo a empresa Bosch (2014), a Indústria 4.0 permite que dispositivos, equipamentos e peças troquem informações que serão processadas na nuvem, tornando-se requisito fundamental em máquinas e interfaces conectadas à rede. Não obstante, a Legrand, líder mundial em equipamentos para o setor elétrico, divulgou que de 2014 a 2017 houve um crescimento de 28% na venda de produtos interconectados (IoT), gerando uma receita de 488 milhões de euros nesse período, evidenciando cada vez mais o aumento na demanda e procura por soluções interconectadas.
-Por estes motivos, a execução do controle automatizado de processos de produção industrial utilizando plataforma interconectadas é requisito fundamental. Este documento visa descrever as etapas de desenvolvimento desta interface.
+  Para se adequarem à estas mudanças, as grandes empresas de tecnologia estão se atualizando às novas perspectivas e demandas do mercado, segundo a empresa Bosch (2014), a Indústria 4.0 permite que dispositivos, equipamentos e peças troquem informações que serão processadas na nuvem, tornando-se requisito fundamental em máquinas e interfaces conectadas à rede.  
+  Não obstante, a Legrand, líder mundial em equipamentos para o setor elétrico, divulgou que de 2014 a 2017 houve um crescimento de 28% na venda de produtos interconectados (IoT), gerando uma receita de 488 milhões de euros nesse período, evidenciando cada vez mais o aumento na demanda e procura por soluções interconectadas.  
+  Por estes motivos, a execução do controle automatizado de processos de produção industrial utilizando plataforma interconectadas é requisito fundamental. Este documento visa descrever as etapas de desenvolvimento desta interface.
 
 ## **CONCEPÇÃO**
 
@@ -61,8 +59,7 @@ Por estes motivos, a execução do controle automatizado de processos de produç
 ## OPERACIONALIZAÇÃO
 
 
-**REFERÊNCIAS**
-
+## REFERÊNCIAS
 JAZDI, N. **Cyber physical systems in the context of Industry 4.0**. 2014 IEEE International Conference on Automation, Quality and Testing, Robotics. DOI: 10.1109/AQTR.2014.6857843. IEE, 2014.
 
 BOSCH. **Industry 4.0.** Disponível em: https://www.bosch.com/stories/industry-for-individualists/. Acesso em 18/02/2019.
